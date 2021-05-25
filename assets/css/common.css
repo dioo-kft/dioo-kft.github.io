@@ -1,0 +1,141 @@
+:root {
+    --black-30: rgba(0, 0, 0, 0.3);
+    --black-60: rgba(0, 0, 0, 0.6);
+    --white-60: rgba(255, 255, 255, 0.6);
+}
+
+#newsletter {
+    padding: 40px 0;
+}
+
+#newsletter .section-heading {
+    margin-bottom: 40px;
+}
+
+#intro-video {
+    margin-bottom: 80px;
+}
+
+header.masthead {
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#mainNav.bg-dark-opaque {
+    background-color: var(--black-30);
+}
+
+.intro-banner {
+    margin-bottom: 40px;
+    font-size: 1.7em;
+    font-family: Kaushan Script, Helvetica Neue, Helvetica, Arial, cursive
+}
+
+header.masthead .intro-text .intro-heading {
+    font-family: Kaushan Script, Helvetica Neue, Helvetica, Arial, cursive
+}
+
+.btn-subheading {
+    margin-bottom: 1em;
+}
+
+.section-wo-heading {
+    padding-top: 2em;
+}
+
+.section-header {
+    padding-bottom: 3em;
+}
+
+#contact {
+    background-image: url('../img/contact.jpg');
+    background-size: cover;
+}
+
+#contact .container {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#fenntartoknak.masthead {
+    background-image: url('../img/fenntartoknak.jpg');
+    color: var(--gray-dark);
+}
+
+#esemenyek.masthead {
+    background-image: url('../img/rendezvenyek.jpg');
+}
+
+#home.masthead {
+    background-image: url('../img/header-bg.jpg');
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#faq.masthead {
+    background-image: url('../img/gyik.jpg');
+}
+
+#events.masthead {
+    background-image: url('../img/rendezvenyek.jpg');
+    padding-bottom: 100px;
+}
+
+#blog {
+    background-image: url('../img/news.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 150px;
+}
+
+#blog .nav-scroller {
+    background-color: var(--black-60);
+}
+
+#blog .jumbotron {
+    background-color: var(--black-60);
+}
+
+#blog .card {
+    background-color: var(--white-60);
+}
+
+#pedagogusoknak.masthead {
+    background-image: url('../img/pedagogusoknak.jpg');
+    background-position: bottom;
+}
+
+#szuloknek.masthead {
+    background-image: url('../img/szuloknek.jpg');
+    background-position: center;
+}
+
+#testimonials .carousel-inner {
+    height: 500px;
+}
+
+@media (min-width:768px) {
+    #testimonials .carousel-inner {
+        height: 400px;
+    }
+}
+
+#testimonials h5 {
+    margin-top: 1em;
+}
+
+#testimonials blockquote {
+    padding: 0.5em;
+}
+
+#testimonials .carousel-inner {
+    background-image: url('../img/testimonials.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    color: black;
+    background-color: var(--white-60);
+}
